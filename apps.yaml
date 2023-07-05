@@ -6,7 +6,7 @@ metadata:
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
-  project: defualt
+  project: default
   source:
     path: helm
     repoURL: https://github.com/kevingigiano/argo-15-min.git
